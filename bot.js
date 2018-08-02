@@ -459,14 +459,14 @@ client.on("message", message => {
   
   
   
-  if(message.content === "-stop" ) {
+  if(message.content === "!stop" ) {
                 var servers = {};
 
-            if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();//الحقوق كامله محفوضه لدا سيرفر الفا
+            if (message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
    
   } 
 
- if(message.content === "the quran 123") {
+ if(message.content === "server2quran") {
    message.channel.send(` QuranBot
 شكرا لإستعمال البوت | Thanks You
  `)
